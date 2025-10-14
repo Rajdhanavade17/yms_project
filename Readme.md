@@ -39,24 +39,23 @@ it will prints the info(max, min, mean, std of construction error) for the the g
 ## our main objective was to construct banknifty index value using ltp price of all its constituents 
    so we have 12 prices of 12 constituent stocks of banknifty and now we have to find how they are calculated so we can get the index price
 1. for that we need to understand how they are weighted in the banknifty index
-        (a) the 12 stocks are weighted using their free float market cap 
-                free float market cap is basically the tradeble stocks available in the market 
-                how to get free float market cap of a stock:
-                    free float market cap = price of a single share * outstanding shares * iwf(investible weight factor)
+   (a) the 12 stocks are weighted using their free float market cap 
+            free float market cap is basically the tradeble stocks available in the market 
+            how to get free float market cap of a stock:
 
-                    so we need to find iwf using from the recent shareholding pattern availabel on nse website or stocks quaterely reports
+                 free float market cap = price of a single share * outstanding shares * iwf(investible weight factor)
+                 so we need to find iwf using from the recent shareholding pattern availabel on nse website or stocks quaterely reports
 
-        (b) top on this their is a maximum limit on the weitage percentage of single stock in index known as capping
+   (b) top on this their is a maximum limit on the weitage percentage of single stock in index known as capping
                 banknifty uses 2 capping factors:
-                    weight of single stock should not exceed 33% of index
-                    combined weight of top 3 stocks should not exceed 62% of index
+                   1 weight of single stock should not exceed 33% of index
+                   2 combined weight of top 3 stocks should not exceed 62% of index
                 if in case weight of single stock exceeds the capping limit then its weitage brought down to 33% and the market cap reduced is redistributed among all other stocks.
                     from this method we can get capping factor of a stock
 
-2. index price formula
+3. index price formula
         
-        banknifty index = (index market cap)/Base Market capital * Base index value
-        
+            banknifty index = (index market cap)/Base Market capital * Base index value
             index market cap = sum(i=1,12){ free float market cap of stock * capping factor of stock }  
 
     ** so besically to construct index value base values are constant so it depends on index market cap, and to calculate index market cap only stocks prices are variable and all other factors are constant
@@ -65,18 +64,18 @@ it will prints the info(max, min, mean, std of construction error) for the the g
 
         (important note: on web and nse documentation they wrote that rebalancing(changing the weithage/ number of stocks we are using above) happens twice a year but from available data and calculated results it is clear that this change in number of shares for an index happens four times a year that is you will have the same number of shares for each day in a quarter)
 
-        so we will be having only one shares_data csv file for each quarter for ex. 25Q2.csv
+         so we will be having only one shares_data csv file for each quarter for ex. 25Q2.csv
 
-3. how calculations are done
+4. how calculations are done
 
-        for each timestamp we have the ltp of 12 stocks and we also have the number of shares for each stock in the index 
-        we will use the base market cap and base index value as the index market capital on any day of a corresonding quarter and close price of index on that day respectively (this values should be saved in shares csv file having name = price, value and their corresponding values in the shares columns)
+   for each timestamp we have the ltp of 12 stocks and we also have the number of shares for each stock in the index 
+   we will use the base market cap and base index value as the index market capital on any day of a corresonding quarter and close price of index on that day respectively (this values should be saved in shares csv file having name = price, value and their corresponding values in the shares columns)
 
         bn_constructed_index = ['total_stock_value'] / base_total_value * base_banknifty_value
 
-        we will calculate total_stock_value by multiplying each stocks ltp with their corresponding number of shares and add them 
+    we will calculate total_stock_value by multiplying each stocks ltp with their corresponding number of shares and add them 
 
-4. i observered that until 5th june my mean error(bn_constructed_index - bn_index) of all timestamps of a day is 0
+5. i observered that until 5th june my mean error(bn_constructed_index - bn_index) of all timestamps of a day is 0
        suddenly from 6th june error become 62 for nearly a week then 120 for few days, it is like the whole values are shifted by respective error numbers (my deviation was nearly same)
        
        so to eliminate this error i introduced error corrected formula in which we construct the bn index using the same method and then subtract the mean error we got from previous trading day
