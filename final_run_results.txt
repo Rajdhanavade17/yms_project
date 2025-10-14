@@ -1,0 +1,801 @@
+Microsoft Windows [Version 10.0.26200.6725]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Raj\yms_project\raj\yms_submission>..\..\venv\scripts\activate
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>for %f in (data\202503*) do python construct.py -s 24Q4.csv -d %f
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250303.data.csv
+Loading market data from data\20250303.data.csv
+Calculation complete. Output saved to Solutions\20250303.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250304.data.csv
+Loading market data from data\20250304.data.csv
+Calculation complete. Output saved to Solutions\20250304.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250305.data.csv
+Loading market data from data\20250305.data.csv
+Calculation complete. Output saved to Solutions\20250305.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250307.data.csv
+Loading market data from data\20250307.data.csv
+Calculation complete. Output saved to Solutions\20250307.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250310.data.csv
+Loading market data from data\20250310.data.csv
+Calculation complete. Output saved to Solutions\20250310.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250311.data.csv
+Loading market data from data\20250311.data.csv
+Calculation complete. Output saved to Solutions\20250311.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250312.data.csv
+Loading market data from data\20250312.data.csv
+Calculation complete. Output saved to Solutions\20250312.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250313.data.csv
+Loading market data from data\20250313.data.csv
+Calculation complete. Output saved to Solutions\20250313.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250317.data.csv
+Loading market data from data\20250317.data.csv
+Calculation complete. Output saved to Solutions\20250317.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250318.data.csv
+Loading market data from data\20250318.data.csv
+Calculation complete. Output saved to Solutions\20250318.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250319.data.csv
+Loading market data from data\20250319.data.csv
+Calculation complete. Output saved to Solutions\20250319.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250320.data.csv
+Loading market data from data\20250320.data.csv
+Calculation complete. Output saved to Solutions\20250320.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250321.data.csv
+Loading market data from data\20250321.data.csv
+Calculation complete. Output saved to Solutions\20250321.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250324.data.csv
+Loading market data from data\20250324.data.csv
+Calculation complete. Output saved to Solutions\20250324.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250325.data.csv
+Loading market data from data\20250325.data.csv
+Calculation complete. Output saved to Solutions\20250325.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250326.data.csv
+Loading market data from data\20250326.data.csv
+Calculation complete. Output saved to Solutions\20250326.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250327.data.csv
+Loading market data from data\20250327.data.csv
+Calculation complete. Output saved to Solutions\20250327.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 24Q4.csv -d data\20250328.data.csv
+Loading market data from data\20250328.data.csv
+Calculation complete. Output saved to Solutions\20250328.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>for %f in (data\202504* data\202505* data\202506*) do python construct.py -s 25Q1.csv -d %f
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250401.data.csv
+Loading market data from data\20250401.data.csv
+Calculation complete. Output saved to Solutions\20250401.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250402.data.csv
+Loading market data from data\20250402.data.csv
+Calculation complete. Output saved to Solutions\20250402.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250403.data.csv
+Loading market data from data\20250403.data.csv
+Calculation complete. Output saved to Solutions\20250403.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250404.data.csv
+Loading market data from data\20250404.data.csv
+Calculation complete. Output saved to Solutions\20250404.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250407.data.csv
+Loading market data from data\20250407.data.csv
+Calculation complete. Output saved to Solutions\20250407.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250408.data.csv
+Loading market data from data\20250408.data.csv
+Calculation complete. Output saved to Solutions\20250408.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250409.data.csv
+Loading market data from data\20250409.data.csv
+Calculation complete. Output saved to Solutions\20250409.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250411.data.csv
+Loading market data from data\20250411.data.csv
+Calculation complete. Output saved to Solutions\20250411.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250415.data.csv
+Loading market data from data\20250415.data.csv
+Calculation complete. Output saved to Solutions\20250415.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250416.data.csv
+Loading market data from data\20250416.data.csv
+Calculation complete. Output saved to Solutions\20250416.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250417.data.csv
+Loading market data from data\20250417.data.csv
+Calculation complete. Output saved to Solutions\20250417.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250421.data.csv
+Loading market data from data\20250421.data.csv
+Calculation complete. Output saved to Solutions\20250421.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250422.data.csv
+Loading market data from data\20250422.data.csv
+Calculation complete. Output saved to Solutions\20250422.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250423.data.csv
+Loading market data from data\20250423.data.csv
+Calculation complete. Output saved to Solutions\20250423.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250424.data.csv
+Loading market data from data\20250424.data.csv
+Calculation complete. Output saved to Solutions\20250424.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250425.data.csv
+Loading market data from data\20250425.data.csv
+Calculation complete. Output saved to Solutions\20250425.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250428.data.csv
+Loading market data from data\20250428.data.csv
+Calculation complete. Output saved to Solutions\20250428.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250429.data.csv
+Loading market data from data\20250429.data.csv
+Calculation complete. Output saved to Solutions\20250429.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250430.data.csv
+Loading market data from data\20250430.data.csv
+Calculation complete. Output saved to Solutions\20250430.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250502.data.csv
+Loading market data from data\20250502.data.csv
+Calculation complete. Output saved to Solutions\20250502.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250505.data.csv
+Loading market data from data\20250505.data.csv
+Calculation complete. Output saved to Solutions\20250505.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250506.data.csv
+Loading market data from data\20250506.data.csv
+Calculation complete. Output saved to Solutions\20250506.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250507.data.csv
+Loading market data from data\20250507.data.csv
+Calculation complete. Output saved to Solutions\20250507.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250509.data.csv
+Loading market data from data\20250509.data.csv
+Calculation complete. Output saved to Solutions\20250509.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250512.data.csv
+Loading market data from data\20250512.data.csv
+Calculation complete. Output saved to Solutions\20250512.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250513.data.csv
+Loading market data from data\20250513.data.csv
+Calculation complete. Output saved to Solutions\20250513.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250514.data.csv
+Loading market data from data\20250514.data.csv
+Calculation complete. Output saved to Solutions\20250514.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250515.data.csv
+Loading market data from data\20250515.data.csv
+Calculation complete. Output saved to Solutions\20250515.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250516.data.csv
+Loading market data from data\20250516.data.csv
+Calculation complete. Output saved to Solutions\20250516.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250519.data.csv
+Loading market data from data\20250519.data.csv
+Calculation complete. Output saved to Solutions\20250519.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250520.data.csv
+Loading market data from data\20250520.data.csv
+Calculation complete. Output saved to Solutions\20250520.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250521.data.csv
+Loading market data from data\20250521.data.csv
+Calculation complete. Output saved to Solutions\20250521.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250522.data.csv
+Loading market data from data\20250522.data.csv
+Calculation complete. Output saved to Solutions\20250522.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250523.data.csv
+Loading market data from data\20250523.data.csv
+Calculation complete. Output saved to Solutions\20250523.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250526.data.csv
+Loading market data from data\20250526.data.csv
+Calculation complete. Output saved to Solutions\20250526.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250527.data.csv
+Loading market data from data\20250527.data.csv
+Calculation complete. Output saved to Solutions\20250527.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250528.data.csv
+Loading market data from data\20250528.data.csv
+Calculation complete. Output saved to Solutions\20250528.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250529.data.csv
+Loading market data from data\20250529.data.csv
+Calculation complete. Output saved to Solutions\20250529.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250530.data.csv
+Loading market data from data\20250530.data.csv
+Calculation complete. Output saved to Solutions\20250530.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250602.data.csv
+Loading market data from data\20250602.data.csv
+Calculation complete. Output saved to Solutions\20250602.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250603.data.csv
+Loading market data from data\20250603.data.csv
+Calculation complete. Output saved to Solutions\20250603.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250604.data.csv
+Loading market data from data\20250604.data.csv
+Calculation complete. Output saved to Solutions\20250604.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250605.data.csv
+Loading market data from data\20250605.data.csv
+Calculation complete. Output saved to Solutions\20250605.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250606.data.csv
+Loading market data from data\20250606.data.csv
+Calculation complete. Output saved to Solutions\20250606.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250609.data.csv
+Loading market data from data\20250609.data.csv
+Calculation complete. Output saved to Solutions\20250609.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250610.data.csv
+Loading market data from data\20250610.data.csv
+Calculation complete. Output saved to Solutions\20250610.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250611.data.csv
+Loading market data from data\20250611.data.csv
+Calculation complete. Output saved to Solutions\20250611.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250612.data.csv
+Loading market data from data\20250612.data.csv
+Calculation complete. Output saved to Solutions\20250612.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250613.data.csv
+Loading market data from data\20250613.data.csv
+Calculation complete. Output saved to Solutions\20250613.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250616.data.csv
+Loading market data from data\20250616.data.csv
+Calculation complete. Output saved to Solutions\20250616.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250617.data.csv
+Loading market data from data\20250617.data.csv
+Calculation complete. Output saved to Solutions\20250617.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250618.data.csv
+Loading market data from data\20250618.data.csv
+Calculation complete. Output saved to Solutions\20250618.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250619.data.csv
+Loading market data from data\20250619.data.csv
+Calculation complete. Output saved to Solutions\20250619.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250620.data.csv
+Loading market data from data\20250620.data.csv
+Calculation complete. Output saved to Solutions\20250620.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250623.data.csv
+Loading market data from data\20250623.data.csv
+Calculation complete. Output saved to Solutions\20250623.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250624.data.csv
+Loading market data from data\20250624.data.csv
+Calculation complete. Output saved to Solutions\20250624.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250626.data.csv
+Loading market data from data\20250626.data.csv
+Calculation complete. Output saved to Solutions\20250626.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>for %f in (solutions\*) do python info.py -r %f
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250303.data.csv
+max: 13.059650852286723
+min: -11.183182814995234
+mean: 0.018079649523605575
+std: 3.8406385793889553
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250304.data.csv
+max: 45.11162231263006
+min: -11.265695490525104
+mean: 0.4725210742957294
+std: 3.2948224931857077
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250305.data.csv
+max: 9.707674947407213
+min: -15.506324605565169
+mean: -0.6736696931279863
+std: 2.957218231591478
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250307.data.csv
+max: 15.889714327364345
+min: -11.809782141390315
+mean: 0.6043509372030383
+std: 2.7037075188033475
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250310.data.csv
+max: 12.031366116738354
+min: -27.657628187836963
+mean: -0.3957564368722276
+std: 2.9545964993437868
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250311.data.csv
+max: 12.846574660892657
+min: -44.851327678974485
+mean: -0.23550645996876599
+std: 3.752918429592251
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250312.data.csv
+max: 10.428556012491754
+min: -7.751134738995461
+mean: 0.3365091593621478
+std: 2.3515558293822423
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250313.data.csv
+max: 12.311452831192582
+min: -7.749890071354457
+mean: -0.21126419383747022
+std: 2.1201992832812504
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250317.data.csv
+max: 12.977440548915183
+min: -7.7428004332396085
+mean: 0.10289955329244549
+std: 1.937741823775211
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250318.data.csv
+max: 74.5785168342918
+min: -9.28944882905489
+mean: 0.6353146973412181
+std: 4.733119673537074
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250319.data.csv
+max: 11.234146380214952
+min: -35.835820246866206
+mean: -0.9576469805436879
+std: 3.0874011920689823
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250320.data.csv
+max: 18.166626298057963
+min: -12.738469228665053
+mean: -0.29068651378676147
+std: 3.2053521293860263
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250321.data.csv
+max: 17.423657684514183
+min: -19.978231755223533
+mean: 0.4989222835352422
+std: 3.729349970648009
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250324.data.csv
+max: 63.36626348209393
+min: -8.597621429165883
+mean: 0.7544024873241142
+std: 4.401066544300575
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250325.data.csv
+max: 13.580318897489633
+min: -12.504830740464968
+mean: -0.547574644419117
+std: 3.2238984606933956
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250326.data.csv
+max: 15.409955129223817
+min: -18.82003253372386
+mean: -0.5112690139519745
+std: 3.01159306864333
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250327.data.csv
+max: 14.576795102919277
+min: -47.700854887996684
+mean: 0.9717469864806341
+std: 4.261361621825552
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250328.data.csv
+max: 61.75477074859373
+min: -3.553106216357264
+mean: 32.672692198950145
+std: 17.127404667348905
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250401.data.csv
+max: 19.440533982604393
+min: -11.204905227357813
+mean: 0.6565253056027784
+std: 3.123069810680689
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250402.data.csv
+max: 17.25094443580747
+min: -10.424240910761
+mean: -0.9647476937680233
+std: 2.723021389161059
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250403.data.csv
+max: 14.553519474473433
+min: -23.532203680370003
+mean: 0.2531803607892451
+std: 3.249753843054587
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250404.data.csv
+max: 15.161419720869162
+min: -11.471466021233937
+mean: 0.11550549409208118
+std: 3.2801575771016793
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250407.data.csv
+max: 41.59486315940012
+min: -45.3278923946491
+mean: 0.3772292842205833
+std: 5.075074961349763
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250408.data.csv
+max: 19.361194250610424
+min: -16.352069491316797
+mean: -0.24250354817681039
+std: 3.8263290967931227
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250409.data.csv
+max: 21.974608264732524
+min: -13.1631299071596
+mean: -0.3423051740417848
+std: 3.4922741370702637
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250411.data.csv
+max: 14.777152049391589
+min: -92.04199186052574
+mean: -0.1513043129191035
+std: 5.377204409554928
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250415.data.csv
+max: 54.61033563772071
+min: -14.626028442478855
+mean: 0.5084511358597816
+std: 3.863507324362431
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250416.data.csv
+max: 21.337478513138194
+min: -26.299871714749315
+mean: 0.03161481710352784
+std: 3.9136106037891683
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250417.data.csv
+max: 14.95324741423974
+min: -13.361318782510352
+mean: -0.01003363095412382
+std: 3.518659637751206
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250421.data.csv
+max: 39.91417190719949
+min: -9.75371549367992
+mean: 0.3491385738950757
+std: 4.133616424402125
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250422.data.csv
+max: 15.186053932076902
+min: -61.35647289462213
+mean: -0.8393052658576244
+std: 4.407625787625809
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250423.data.csv
+max: 72.93804228730005
+min: -12.023981589140021
+mean: 0.5726509438141062
+std: 4.881105548871508
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250424.data.csv
+max: 114.43789520444989
+min: -14.797643384197727
+mean: 1.8946918928757326
+std: 11.437622691968599
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250425.data.csv
+max: 17.782652407760906
+min: -73.32565742598672
+mean: -2.525492676540899
+std: 5.789177368385141
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250428.data.csv
+max: 16.199854743797914
+min: -21.115489162177255
+mean: -0.24110637844267407
+std: 4.161654688801682
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250429.data.csv
+max: 12.481934231145715
+min: -9.401336951326812
+mean: 0.2883463204832956
+std: 3.5017829124043485
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250430.data.csv
+max: 11.686341273489234
+min: -18.256025831535226
+mean: 0.4165545532285521
+std: 3.057471667747687
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250502.data.csv
+max: 15.910041705494223
+min: -20.86977293904056
+mean: 0.2332616881724576
+std: 3.063673491614403
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250505.data.csv
+max: 9.42603094617516
+min: -14.556274814836797
+mean: -0.013351259831905098
+std: 3.049274283194811
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250506.data.csv
+max: 12.353554940469621
+min: -13.225805066016619
+mean: -0.05337064523259772
+std: 3.812842777020321
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250507.data.csv
+max: 10.564621442470525
+min: -9.194324688913184
+mean: -0.5646185783919832
+std: 2.9942894856326974
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250509.data.csv
+max: 15.774454955280817
+min: -13.051221351139247
+mean: 0.7998405996290301
+std: 3.2539585937816398
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250512.data.csv
+max: 13.482270993081329
+min: -10.040340539904719
+mean: -0.4110068944010562
+std: 3.0080661778551017
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250513.data.csv
+max: 14.391862357479113
+min: -38.08581899183628
+mean: -0.22579255256353442
+std: 3.8400630884484843
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250514.data.csv
+max: 11.979678383482678
+min: -31.21215613847744
+mean: 0.306172858381131
+std: 3.584717552702021
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250515.data.csv
+max: 14.753639031427156
+min: -10.440799243566289
+mean: -0.055702126182447326
+std: 3.3644549483076696
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250516.data.csv
+max: 15.048940053580736
+min: -15.172053803049494
+mean: 0.8483720988368542
+std: 3.2241323109418714
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250519.data.csv
+max: 14.122800953533442
+min: -21.18093421307276
+mean: -0.00814374836770978
+std: 3.353908349808069
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250520.data.csv
+max: 12.080118072000914
+min: -10.004837705208047
+mean: -0.49576337070995696
+std: 2.704102624728992
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250521.data.csv
+max: 14.726460004974797
+min: -11.982477949073655
+mean: -0.7881620485299583
+std: 3.3187623231831944
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250522.data.csv
+max: 16.0120753331139
+min: -16.258663036394864
+mean: 0.5415005825147904
+std: 3.358111625447704
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250523.data.csv
+max: 58.221785832698515
+min: -12.139439049751672
+mean: 0.24982401044090172
+std: 4.260252574856433
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250526.data.csv
+max: 10.486746936898271
+min: -23.36596782914421
+mean: -0.6176748303723798
+std: 3.0368950828693992
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250527.data.csv
+max: 13.47228056989843
+min: -24.808960058093362
+mean: 0.11764426940549419
+std: 3.4350309911817707
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250528.data.csv
+max: 15.19914420418354
+min: -15.321624221738603
+mean: -0.49703027081581086
+std: 2.894203138124091
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250529.data.csv
+max: 33.512778892036295
+min: -10.951447283376183
+mean: 0.7779888728680507
+std: 2.896305272328939
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250530.data.csv
+max: 6.747246089791588
+min: -14.12745641588117
+mean: -1.3567642670865252
+std: 2.9155924403513174
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250602.data.csv
+max: 68.60206934274174
+min: -14.991524966841098
+mean: 0.7876776017402587
+std: 4.617170616521531
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250603.data.csv
+max: 15.72188094084413
+min: -8.865883880178444
+mean: 0.5552781752615161
+std: 3.0204508124134244
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250604.data.csv
+max: 9.670283437772014
+min: -23.994264604742057
+mean: -0.18741481066059892
+std: 2.5751899762393915
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250605.data.csv
+max: 12.696811923422501
+min: -17.98849600178073
+mean: -0.5505876398883629
+std: 3.058480026516908
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250606.data.csv
+max: -43.87333461870003
+min: -76.76871428076993
+mean: -64.2967576391812
+std: 3.3492774833021883
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250609.data.csv
+max: 48.50682627288188
+min: -12.470199079049053
+mean: -0.7534548232098189
+std: 3.6920730806823037
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250610.data.csv
+max: 7.404562121257186
+min: -8.906513934853137
+mean: 0.6171084290761119
+std: 2.214234643840224
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250611.data.csv
+max: 6.397852283538668
+min: -30.67797734035412
+mean: -0.19282672406184925
+std: 2.6968650971540535
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250612.data.csv
+max: 15.074879467159917
+min: -13.514686727423395
+mean: 0.10769298764169319
+std: 3.3033493403182193
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250613.data.csv
+max: -2.628154275203997
+min: -64.41485737200128
+mean: -53.741014919293676
+std: 3.8761289031508404
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250616.data.csv
+max: 11.321611516999837
+min: -9.767294354460319
+mean: -2.5087194918280264
+std: 2.828304784939853
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250617.data.csv
+max: 17.81583759737987
+min: -7.104416882815713
+mean: 1.763170099534944
+std: 2.6611564975872275
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250618.data.csv
+max: 9.710362164136313
+min: -12.509103805743507
+mean: -0.817568149428456
+std: 2.628744655358327
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250619.data.csv
+max: 9.323023413206101
+min: -10.2127648497044
+mean: 1.014206009815117
+std: 2.539178825697116
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250620.data.csv
+max: -34.96133023265429
+min: -56.36150066341361
+mean: -43.1983328179372
+std: 2.5691364865911304
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250623.data.csv
+max: 11.460238748171832
+min: -62.084894189290935
+mean: -0.003736237691400481
+std: 4.233396495042646
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250624.data.csv
+max: 12.371924860482977
+min: -11797.124549328342
+mean: -36.60710454965421
+std: 644.4751180421615
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250626.data.csv
+max: nan
+min: nan
+mean: nan
+std: nan
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python reseterror.py -s 25Q1.csv
+'yesterror' row removed from 25Q1.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d 20250328.data.csv
+Loading market data from 20250328.data.csv
+Traceback (most recent call last):
+  File "C:\Users\Raj\yms_project\raj\yms_submission\construct.py", line 68, in <module>
+    main()
+  File "C:\Users\Raj\yms_project\raj\yms_submission\construct.py", line 24, in main
+    data_df = pd.read_csv(args.data)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raj\yms_project\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raj\yms_project\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raj\yms_project\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Raj\yms_project\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Raj\yms_project\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '20250328.data.csv'
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python construct.py -s 25Q1.csv -d data\20250328.data.csv
+Loading market data from data\20250328.data.csv
+Calculation complete. Output saved to Solutions\20250328.data.csv
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>python info.py -r solutions\20250328.data.csv
+max: 13.47778654845024
+min: -15.119925012528256
+mean: 0.25860512216519405
+std: 3.610336564575146
+
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>
+(venv) C:\Users\Raj\yms_project\raj\yms_submission>
