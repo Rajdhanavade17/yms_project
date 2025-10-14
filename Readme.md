@@ -17,7 +17,7 @@ python construct.py -s 24Q4.csv -d 20250303.data.csv
 or
 
 ```
-python construct.py -shares 24Q4.csv -d 20250303.data.csv
+python construct.py --shares 24Q4.csv --data 20250303.data.csv
 ```
 
 
