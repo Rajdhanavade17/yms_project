@@ -53,44 +53,51 @@ it will prints the info(max, min, mean, std of construction error) for the the g
                 if in case weight of single stock exceeds the capping limit then its weitage brought down to 33% and the market cap reduced is redistributed among all other stocks.
                     from this method we can get capping factor of a stock
 
-3. index price formula
+2. index price formula
         
             banknifty index = (index market cap)/Base Market capital * Base index value
-            index market cap = sum(i=1,12){ free float market cap of stock * capping factor of stock }  
+
+      index market cap = sum(i=1 to 12){ free float market cap of stock * capping factor of stock }
+
+   ### as we dont have accurate values of iwf and capping factor so we will calculate index market cap as:
 
     ** so besically to construct index value base values are constant so it depends on index market cap, and to calculate index market cap only stocks prices are variable and all other factors are constant
 
-    so in the approch we are using, we will find out the number of shares for each stock for index market cap calculation, so to make it easy and accurate we will use the monthly indices weitage availble on nse website which they publish on last trading day of each month
+   ##  so in the approch we are using, we will find out the number of shares for each stock for index market cap calculation, so to make it easy and accurate we will use the monthly indices weitage availble on nse website which they publish on last trading day of each month
 
-        (important note: on web and nse documentation they wrote that rebalancing(changing the weithage/ number of stocks we are using above) happens twice a year but from available data and calculated results it is clear that this change in number of shares for an index happens four times a year that is you will have the same number of shares for each day in a quarter)
+   #### (important note: on web and nse documentation they wrote that rebalancing(changing the weithage/ number of stocks we are using above) happens twice a year but from available data and calculated results it is clear that this change in number of shares for an index happens four times a year that is you will have the same number of shares for each day in a quarter)
 
          so we will be having only one shares_data csv file for each quarter for ex. 25Q2.csv
 
 4. how calculations are done
 
    for each timestamp we have the ltp of 12 stocks and we also have the number of shares for each stock in the index 
-   we will use the base market cap and base index value as the index market capital on any day of a corresonding quarter and close price of index on that day respectively (this values should be saved in shares csv file having name = price, value and their corresponding values in the shares columns)
+   we will use the base market cap and base index value as the index market capital on any day of a corresonding quarter and close price of index on that day respectively (this values should be saved in shares csv file having name: price, value and their corresponding values in the shares columns)
 
         bn_constructed_index = ['total_stock_value'] / base_total_value * base_banknifty_value
 
-    we will calculate total_stock_value by multiplying each stocks ltp with their corresponding number of shares and add them 
+     'total_stock_value' = index market cap    (calculated above)
+   
+    ### we will calculate total_stock_value by multiplying each stocks ltp with their corresponding number of shares and add them 
 
-5. i observered that until 5th june my mean error(bn_constructed_index - bn_index) of all timestamps of a day is 0
+6. i observered that until 5th june my mean error(bn_constructed_index - bn_index) of all timestamps of a day is 0
        suddenly from 6th june error become 62 for nearly a week then 120 for few days, it is like the whole values are shifted by respective error numbers (my deviation was nearly same)
        
        so to eliminate this error i introduced error corrected formula in which we construct the bn index using the same method and then subtract the mean error we got from previous trading day
 
-       and this is implemented using our reusable shares file, so for first iteration we will have yesterror value in shares csv and it will have 0 in it then after that day we will replace it with the error of that day(so we can use it next day)
+#### and this is implemented using our reusable shares csv file, so for first iteration we will have yesterror value in shares csv and it will have 0 in it then after that day we will replace it with the error of that day(so we can use it next day)
 
-           so formula becomes:
+   so formula becomes:
+
            bn_constructed_index = (['total_stock_value'] / base_total_value * base_banknifty_value) - error
            
-           and the error for that days index construction will be
-           new_error = error + (output_df['bn_constructed_index'] - output_df['bn_index']).mean() 
+   and the error for that days index construction will be
 
-           and we will save this error at the front of the yesterror in the shares_data csv file
+           new_error = error + (output_df['bn_constructed_index'] - output_df['bn_index']).mean()
 
-        ** so if you are automated program to calculate this for days you need to excecute it in sequence by date(because yesterror is saving error from the last run)
+   and we will save this error at the front of the yesterror in the shares_data csv file
+
+    ** so if you are automated program to calculate this for days you need to excecute it in sequence by date(because yesterror is saving error from the last run)
 
 # How to Run this program for data folder
 
