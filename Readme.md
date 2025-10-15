@@ -1,4 +1,4 @@
-# How to generate/calculate required output
+# How to generate/calculate required output 
 
 To calculate the index using the its constitutes run construct.py on 'command prompt'/ 'Terminal' giving input parameters -s {shares data csv location} and -d {your csv data files location that contains data for 12 constituents}
 
