@@ -128,7 +128,7 @@ check properly in which folder you are running this loop, first you need to ente
  can refer to this [google sheet file](https://docs.google.com/spreadsheets/d/1nKbhW2VH5hEYwq_94FyJrV_xxmWsZu4V2lAOvdqimKg/edit?usp=sharing) to 'how to get base values'.
 
 
-## Why not used the approch of taking first bn_index value as base index value and total valueation of all 12 constituent stocks using number of shares from shares_data csv file:
+## Why not used the approach of taking the first BN_index value as the base index value and the total valuation of all 12 constituent stocks using the number of shares from the shares_data CSV file:
 
 -this approach can avoid the problem of error generation  
 -but we have to construct the index using its 12 components (that means you don’t have the BankNifty value at the 9:15 timestamp of the day)  
