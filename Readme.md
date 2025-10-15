@@ -2,9 +2,11 @@
 
 To calculate the index using the its constitutes run construct.py on 'command prompt'/ 'Terminal' giving input parameters -s {shares data csv location} and -d {your csv data files location that contains data for 12 constituents}
 
-    (-s/--shares):	shares data should contain 2 columns(name, shares), name should have name of constituent stock and shares should have number of shares of that particular stock considered to calculate the index market cap with this their should be two more value rows with name (value and price) containing base market capitalization/valuation and base price of index(price of index corresponding to base valuation)
+- (-s/--shares):	shares data should contain 2 columns(name, shares), name should have name of constituent stock and shares should have number of shares of that particular stock considered to calculate the index market cap with this their should be two more value rows with name (value and price) containing base market capitalization/valuation and base price of index(price of index corresponding to base valuation)
+      **the value in the shares column is equal to the: (outstanding shares) * (iwf) * (capping factor)**
 
-    (-d/--data):	data input file should contain (date, time, exchange, name, ltp) columns in .csv format
+  
+- (-d/--data):	data input file should contain (date, time, exchange, name, ltp) columns in .csv format
 
 
 
