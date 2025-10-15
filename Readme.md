@@ -128,12 +128,12 @@ check properly in which folder you are running this loop, first you need to ente
  can refer to this [google sheet file](https://docs.google.com/spreadsheets/d/1nKbhW2VH5hEYwq_94FyJrV_xxmWsZu4V2lAOvdqimKg/edit?usp=sharing) to 'how to get base values'.
 
 
-# Why not used the approch of taking first bn_index value as base index value and total valueation of all 12 constituent stocks using number of shares from shares_data csv file:
--this approch can avoid the problem of error generating 
--but we have to construct index using its 12 components (that means you dont have the banknifty value on 9:15 timestamp of the day )
-        -and if we can use banknifty value from the customdata given then it will not asure your mean error is 0 that your prediction is spread in both direction postive and negitive evenly 
-        -also if we are have bn_index values from the given data to use in calculation then just take previous timestamps values as base and calculate index
-        
--I basically chose the approach of subtracting the error because the predictions are unbiased, meaning they neither over-predict nor under-predict on average.
+## Why not used the approch of taking first bn_index value as base index value and total valueation of all 12 constituent stocks using number of shares from shares_data csv file:
 
--For the method without error subtraction, results up to 20250605 are quite good, so you can use that method as well.
+-this approach can avoid the problem of error generation  
+-but we have to construct the index using its 12 components (that means you don’t have the BankNifty value at the 9:15 timestamp of the day)  
+-and if we use the BankNifty value from the custom data given, then it will not assure that your mean error is 0 or that your prediction is spread evenly in both positive and negative directions  
+-also, if we have BN_index values from the given data to use in calculation, then just take previous timestamp values as the base and calculate the index  
+
+-I basically chose the approach of subtracting the error because the predictions are unbiased, meaning they neither over-predict nor under-predict on average  
+-For the method without error subtraction, results up to 20250605 are quite good, so you can use that method as well  
