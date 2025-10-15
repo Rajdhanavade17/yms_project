@@ -80,8 +80,9 @@ it will prints the info(max, min, mean, std of construction error) for the the g
    
     ### we will calculate total_stock_value by multiplying each stocks ltp with their corresponding number of shares and add them 
 
-6. i observered that until 5th june my mean error(bn_constructed_index - bn_index) of all timestamps of a day is 0
+6. i observered that until 5th june my mean error(bn_constructed_index - bn_index) of all timestamps of a day is approximately 0
        suddenly from 6th june error become 62 for nearly a week then 120 for few days, it is like the whole values are shifted by respective error numbers (my deviation was nearly same)
+   ##### refer to results_without_error_subtraction.txt file for better understanding the need of error correction.
        
        so to eliminate this error i introduced error corrected formula in which we construct the bn index using the same method and then subtract the mean error we got from previous trading day
 
