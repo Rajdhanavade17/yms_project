@@ -130,13 +130,10 @@ check properly in which folder you are running this loop, first you need to ente
 
  can refer to this [google sheet file](https://docs.google.com/spreadsheets/d/1nKbhW2VH5hEYwq_94FyJrV_xxmWsZu4V2lAOvdqimKg/edit?usp=sharing) to 'how to get base values'.
 
-
-## Why not used the approach of taking the first BN_index value as the base index value and the total valuation of all 12 constituent stocks using the number of shares from the shares_data CSV file:
-
--this approach can avoid the problem of error generation  
--but we have to construct the index using its 12 components (that means you don’t have the BankNifty value at the 9:15 timestamp of the day)  
--and if we use the BankNifty value from the custom data given, then it will not assure that your mean error is 0 or that your prediction is spread evenly in both positive and negative directions  
--also, if we have BN_index values from the given data to use in calculation, then just take previous timestamp values as the base and calculate the index  
-
--I basically chose the approach of subtracting the error because the predictions are unbiased, meaning they neither over-predict nor under-predict on average  
--For the method without error subtraction, results up to 20250605 are quite good, so you can use that method as well  
+## Another approach uses the BN_index value of the previous timestamp as the base index price, and the base index valuation as the total valuation of all 12 constituent stocks from the previous timestamp, using the number of shares from the shares_data CSV file.
+   [Solution and files using this approch](Other_Strategies/strat1_Prev_timestamp_values_as_base)_<br>
+   -This approach can avoid the problem of error generation.<br>
+   -However, we have to construct the index using its 12 components (which means you don’t have the true Bank Nifty value for your calculations).<br>
+       but If it is allowed to use the true Bank Nifty values, then by taking the previous timestamp values as the base, you can find a good solution.<br>
+       
+   Both approaches have their positives and negatives.
