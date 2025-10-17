@@ -10,8 +10,10 @@ The true Bank Nifty index price is extracted from market data.
 
 The constructed Bank Nifty index is calculated iteratively, using a rolling formula that references the previous timestamp’s total stock value and previous Bank Nifty price as the base for the current timestamp calculation:
 
-constructed_price:
-constructed_price_t = (total_stock_value_t / total_stock_value_{t-1}) * index_price_{t-1}
+  Constructed Price Formula:
+
+    constructed_priceₜ = (total_stock_valueₜ / total_stock_valueₜ₋₁) × index_priceₜ₋₁
+
 
 For each timestamp `t`, the previous timestamp `t-1`'s total stock valuation and index price are used as the base values to compute the index at `t`.
 
