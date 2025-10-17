@@ -1,0 +1,1482 @@
+Microsoft Windows [Version 10.0.26200.6899]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Raj\yms_project\raj\with prev>..\..\venv\scripts\activate
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>code .
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>code .
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>cd data
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\data>cd..
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>for % f in (data\202503*) do python newprev.py -s 24Q4.csv -d %f
+% was unexpected at this time.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>for %f in (data\202503*) do python newprev.py -s 24Q4.csv -d %f
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250303.data.csv
+Loading market data from data\20250303.data.csv
+Calculation complete. Output saved to Solutions\20250303.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250304.data.csv
+Loading market data from data\20250304.data.csv
+Calculation complete. Output saved to Solutions\20250304.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250305.data.csv
+Loading market data from data\20250305.data.csv
+Calculation complete. Output saved to Solutions\20250305.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250307.data.csv
+Loading market data from data\20250307.data.csv
+Calculation complete. Output saved to Solutions\20250307.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250310.data.csv
+Loading market data from data\20250310.data.csv
+Calculation complete. Output saved to Solutions\20250310.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250311.data.csv
+Loading market data from data\20250311.data.csv
+Calculation complete. Output saved to Solutions\20250311.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250312.data.csv
+Loading market data from data\20250312.data.csv
+Calculation complete. Output saved to Solutions\20250312.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250313.data.csv
+Loading market data from data\20250313.data.csv
+Calculation complete. Output saved to Solutions\20250313.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250317.data.csv
+Loading market data from data\20250317.data.csv
+Calculation complete. Output saved to Solutions\20250317.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250318.data.csv
+Loading market data from data\20250318.data.csv
+Calculation complete. Output saved to Solutions\20250318.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250319.data.csv
+Loading market data from data\20250319.data.csv
+Calculation complete. Output saved to Solutions\20250319.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250320.data.csv
+Loading market data from data\20250320.data.csv
+Calculation complete. Output saved to Solutions\20250320.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250321.data.csv
+Loading market data from data\20250321.data.csv
+Calculation complete. Output saved to Solutions\20250321.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250324.data.csv
+Loading market data from data\20250324.data.csv
+Calculation complete. Output saved to Solutions\20250324.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250325.data.csv
+Loading market data from data\20250325.data.csv
+Calculation complete. Output saved to Solutions\20250325.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250326.data.csv
+Loading market data from data\20250326.data.csv
+Calculation complete. Output saved to Solutions\20250326.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250327.data.csv
+Loading market data from data\20250327.data.csv
+Calculation complete. Output saved to Solutions\20250327.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 24Q4.csv-d data\20250328.data.csv
+Loading market data from data\20250328.data.csv
+Calculation complete. Output saved to Solutions\20250328.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>cd solutions
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>for %f in (*) do python ..\info.py -r %f
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250303.data.csv
+max: 14.364824046155263
+min: -21.82816658043157
+mean: 0.005042501683922811
+std: 5.655881489777919
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250304.data.csv
+max: 43.35133920494991
+min: -43.99155157284986
+mean: -0.004705362586370958
+std: 4.583775116010242
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250305.data.csv
+max: 13.031641688176023
+min: -16.149672585976077
+mean: 0.0028152209102661296
+std: 4.00166744663445
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250307.data.csv
+max: 14.949514926149277
+min: -18.743207223735226
+mean: 0.0003461634918920104
+std: 3.7546389649341685
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250310.data.csv
+max: 24.48187736015825
+min: -28.313414716671105
+mean: 0.003099050148000273
+std: 4.111256692328322
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250311.data.csv
+max: 42.539077236178855
+min: -46.935219323997444
+mean: -0.005264062324289277
+std: 5.127776762642385
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250312.data.csv
+max: 14.238075630979438
+min: -10.27424345597683
+mean: -0.0014311206375188046
+std: 3.237572511160144
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250313.data.csv
+max: 13.021636563884385
+min: -20.04772115295782
+mean: -0.003000625617866543
+std: 3.0693108173998436
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250317.data.csv
+max: 13.169179879936564
+min: -10.471033413443365
+mean: -0.0032790054579658937
+std: 2.684046319579319
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250318.data.csv
+max: 77.65131858356472
+min: -79.49405325236876
+mean: 0.010292061138569168
+std: 6.9447928924339415
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250319.data.csv
+max: 28.776929461193504
+min: -35.79651647854189
+mean: 0.000775638552094027
+std: 4.231900808791306
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250320.data.csv
+max: 17.03299283569504
+min: -21.373642254322476
+mean: -0.0025645347045707588
+std: 4.4657717591030135
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250321.data.csv
+max: 20.466158264840487
+min: -21.636782390225562
+mean: -0.0028730737466251778
+std: 4.845776403685632
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250324.data.csv
+max: 64.63682965599583
+min: -53.34182299983513
+mean: 0.004075992861157345
+std: 5.924605344363583
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250325.data.csv
+max: 16.684721529629314
+min: -13.374815652561665
+mean: -0.016013085895173525
+std: 4.286922463079778
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250326.data.csv
+max: 18.697329049966356
+min: -18.459170715286746
+mean: 0.017818724284687903
+std: 4.117732189646491
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250327.data.csv
+max: 50.00012180055637
+min: -46.47320812912221
+mean: -0.0014839923922873493
+std: 6.034607712137635
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250328.data.csv
+max: 22.34256830580125
+min: -20.17641339344118
+mean: 0.13810538725434487
+std: 4.929698336922095
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>cd..
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>for %f in (data\20250328* data\202504* data\202505* data\202506*) do python newprev.py -s 25Q1.csv -d %f
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250328.data.csv
+Loading market data from data\20250328.data.csv
+Calculation complete. Output saved to Solutions\20250328.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250401.data.csv
+Loading market data from data\20250401.data.csv
+Calculation complete. Output saved to Solutions\20250401.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250402.data.csv
+Loading market data from data\20250402.data.csv
+Calculation complete. Output saved to Solutions\20250402.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250403.data.csv
+Loading market data from data\20250403.data.csv
+Calculation complete. Output saved to Solutions\20250403.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250404.data.csv
+Loading market data from data\20250404.data.csv
+Calculation complete. Output saved to Solutions\20250404.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250407.data.csv
+Loading market data from data\20250407.data.csv
+Calculation complete. Output saved to Solutions\20250407.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250408.data.csv
+Loading market data from data\20250408.data.csv
+Calculation complete. Output saved to Solutions\20250408.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250409.data.csv
+Loading market data from data\20250409.data.csv
+Calculation complete. Output saved to Solutions\20250409.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250411.data.csv
+Loading market data from data\20250411.data.csv
+Calculation complete. Output saved to Solutions\20250411.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250415.data.csv
+Loading market data from data\20250415.data.csv
+Calculation complete. Output saved to Solutions\20250415.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250416.data.csv
+Loading market data from data\20250416.data.csv
+Calculation complete. Output saved to Solutions\20250416.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250417.data.csv
+Loading market data from data\20250417.data.csv
+Calculation complete. Output saved to Solutions\20250417.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250421.data.csv
+Loading market data from data\20250421.data.csv
+Calculation complete. Output saved to Solutions\20250421.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250422.data.csv
+Loading market data from data\20250422.data.csv
+Calculation complete. Output saved to Solutions\20250422.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250423.data.csv
+Loading market data from data\20250423.data.csv
+Calculation complete. Output saved to Solutions\20250423.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250424.data.csv
+Loading market data from data\20250424.data.csv
+Calculation complete. Output saved to Solutions\20250424.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250425.data.csv
+Loading market data from data\20250425.data.csv
+Calculation complete. Output saved to Solutions\20250425.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250428.data.csv
+Loading market data from data\20250428.data.csv
+Calculation complete. Output saved to Solutions\20250428.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250429.data.csv
+Loading market data from data\20250429.data.csv
+Calculation complete. Output saved to Solutions\20250429.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250430.data.csv
+Loading market data from data\20250430.data.csv
+Calculation complete. Output saved to Solutions\20250430.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250502.data.csv
+Loading market data from data\20250502.data.csv
+Calculation complete. Output saved to Solutions\20250502.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250505.data.csv
+Loading market data from data\20250505.data.csv
+Calculation complete. Output saved to Solutions\20250505.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250506.data.csv
+Loading market data from data\20250506.data.csv
+Calculation complete. Output saved to Solutions\20250506.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250507.data.csv
+Loading market data from data\20250507.data.csv
+Calculation complete. Output saved to Solutions\20250507.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250509.data.csv
+Loading market data from data\20250509.data.csv
+Calculation complete. Output saved to Solutions\20250509.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250512.data.csv
+Loading market data from data\20250512.data.csv
+Calculation complete. Output saved to Solutions\20250512.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250513.data.csv
+Loading market data from data\20250513.data.csv
+Calculation complete. Output saved to Solutions\20250513.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250514.data.csv
+Loading market data from data\20250514.data.csv
+Calculation complete. Output saved to Solutions\20250514.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250515.data.csv
+Loading market data from data\20250515.data.csv
+Calculation complete. Output saved to Solutions\20250515.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250516.data.csv
+Loading market data from data\20250516.data.csv
+Calculation complete. Output saved to Solutions\20250516.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250519.data.csv
+Loading market data from data\20250519.data.csv
+Calculation complete. Output saved to Solutions\20250519.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250520.data.csv
+Loading market data from data\20250520.data.csv
+Calculation complete. Output saved to Solutions\20250520.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250521.data.csv
+Loading market data from data\20250521.data.csv
+Calculation complete. Output saved to Solutions\20250521.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250522.data.csv
+Loading market data from data\20250522.data.csv
+Calculation complete. Output saved to Solutions\20250522.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250523.data.csv
+Loading market data from data\20250523.data.csv
+Calculation complete. Output saved to Solutions\20250523.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250526.data.csv
+Loading market data from data\20250526.data.csv
+Calculation complete. Output saved to Solutions\20250526.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250527.data.csv
+Loading market data from data\20250527.data.csv
+Calculation complete. Output saved to Solutions\20250527.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250528.data.csv
+Loading market data from data\20250528.data.csv
+Calculation complete. Output saved to Solutions\20250528.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250529.data.csv
+Loading market data from data\20250529.data.csv
+Calculation complete. Output saved to Solutions\20250529.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250530.data.csv
+Loading market data from data\20250530.data.csv
+Calculation complete. Output saved to Solutions\20250530.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250602.data.csv
+Loading market data from data\20250602.data.csv
+Calculation complete. Output saved to Solutions\20250602.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250603.data.csv
+Loading market data from data\20250603.data.csv
+Calculation complete. Output saved to Solutions\20250603.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250604.data.csv
+Loading market data from data\20250604.data.csv
+Calculation complete. Output saved to Solutions\20250604.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250605.data.csv
+Loading market data from data\20250605.data.csv
+Calculation complete. Output saved to Solutions\20250605.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250606.data.csv
+Loading market data from data\20250606.data.csv
+Calculation complete. Output saved to Solutions\20250606.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250609.data.csv
+Loading market data from data\20250609.data.csv
+Calculation complete. Output saved to Solutions\20250609.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250610.data.csv
+Loading market data from data\20250610.data.csv
+Calculation complete. Output saved to Solutions\20250610.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250611.data.csv
+Loading market data from data\20250611.data.csv
+Calculation complete. Output saved to Solutions\20250611.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250612.data.csv
+Loading market data from data\20250612.data.csv
+Calculation complete. Output saved to Solutions\20250612.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250613.data.csv
+Loading market data from data\20250613.data.csv
+Calculation complete. Output saved to Solutions\20250613.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250616.data.csv
+Loading market data from data\20250616.data.csv
+Calculation complete. Output saved to Solutions\20250616.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250617.data.csv
+Loading market data from data\20250617.data.csv
+Calculation complete. Output saved to Solutions\20250617.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250618.data.csv
+Loading market data from data\20250618.data.csv
+Calculation complete. Output saved to Solutions\20250618.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250619.data.csv
+Loading market data from data\20250619.data.csv
+Calculation complete. Output saved to Solutions\20250619.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250620.data.csv
+Loading market data from data\20250620.data.csv
+Calculation complete. Output saved to Solutions\20250620.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250623.data.csv
+Loading market data from data\20250623.data.csv
+Calculation complete. Output saved to Solutions\20250623.data.csv
+Shares CSV updated with prev_total_value and prev_total_price.
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250624.data.csv
+Loading market data from data\20250624.data.csv
+Traceback (most recent call last):
+  File "C:\Users\Raj\yms_project\raj\with prev\newprev.py", line 88, in <module>
+    main()
+  File "C:\Users\Raj\yms_project\raj\with prev\newprev.py", line 53, in main
+    constructed_bn = (current_total_value / prev_total_value) * prev_bn_price
+                      ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>python newprev.py -s 25Q1.csv-d data\20250626.data.csv
+Loading market data from data\20250626.data.csv
+Traceback (most recent call last):
+  File "C:\Users\Raj\yms_project\raj\with prev\newprev.py", line 88, in <module>
+    main()
+  File "C:\Users\Raj\yms_project\raj\with prev\newprev.py", line 53, in main
+    constructed_bn = (current_total_value / prev_total_value) * prev_bn_price
+                      ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>cd solutions
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>for %f in (*) do python ..\info.py -r %f
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250303.data.csv
+max: 14.364824046155263
+min: -21.82816658043157
+mean: 0.005042501683922811
+std: 5.655881489777919
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250304.data.csv
+max: 43.35133920494991
+min: -43.99155157284986
+mean: -0.004705362586370958
+std: 4.583775116010242
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250305.data.csv
+max: 13.031641688176023
+min: -16.149672585976077
+mean: 0.0028152209102661296
+std: 4.00166744663445
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250307.data.csv
+max: 14.949514926149277
+min: -18.743207223735226
+mean: 0.0003461634918920104
+std: 3.7546389649341685
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250310.data.csv
+max: 24.48187736015825
+min: -28.313414716671105
+mean: 0.003099050148000273
+std: 4.111256692328322
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250311.data.csv
+max: 42.539077236178855
+min: -46.935219323997444
+mean: -0.005264062324289277
+std: 5.127776762642385
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250312.data.csv
+max: 14.238075630979438
+min: -10.27424345597683
+mean: -0.0014311206375188046
+std: 3.237572511160144
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250313.data.csv
+max: 13.021636563884385
+min: -20.04772115295782
+mean: -0.003000625617866543
+std: 3.0693108173998436
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250317.data.csv
+max: 13.169179879936564
+min: -10.471033413443365
+mean: -0.0032790054579658937
+std: 2.684046319579319
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250318.data.csv
+max: 77.65131858356472
+min: -79.49405325236876
+mean: 0.010292061138569168
+std: 6.9447928924339415
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250319.data.csv
+max: 28.776929461193504
+min: -35.79651647854189
+mean: 0.000775638552094027
+std: 4.231900808791306
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250320.data.csv
+max: 17.03299283569504
+min: -21.373642254322476
+mean: -0.0025645347045707588
+std: 4.4657717591030135
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250321.data.csv
+max: 20.466158264840487
+min: -21.636782390225562
+mean: -0.0028730737466251778
+std: 4.845776403685632
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250324.data.csv
+max: 64.63682965599583
+min: -53.34182299983513
+mean: 0.004075992861157345
+std: 5.924605344363583
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250325.data.csv
+max: 16.684721529629314
+min: -13.374815652561665
+mean: -0.016013085895173525
+std: 4.286922463079778
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250326.data.csv
+max: 18.697329049966356
+min: -18.459170715286746
+mean: 0.017818724284687903
+std: 4.117732189646491
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250327.data.csv
+max: 50.00012180055637
+min: -46.47320812912221
+mean: -0.0014839923922873493
+std: 6.034607712137635
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250328.data.csv
+max: 13.47778654845024
+min: -18.587393802248698
+mean: -0.013137411144445187
+std: 4.878508119634497
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250401.data.csv
+max: 14.695230577090115
+min: -17.16296839997085
+mean: 0.01261427531226992
+std: 4.114930140484503
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250402.data.csv
+max: 18.036677198811958
+min: -25.30320739834133
+mean: 0.00045528959609773085
+std: 3.916302736638719
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250403.data.csv
+max: 30.602066858962644
+min: -23.689546575908025
+mean: 0.002743053435880667
+std: 4.572610636427996
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250404.data.csv
+max: 15.200561143232335
+min: -13.425073661608621
+mean: -0.0027038253303854095
+std: 4.382204687377834
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250407.data.csv
+max: 45.91060617691983
+min: -44.77155948573636
+mean: 0.0024897613933369048
+std: 7.170991275154576
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250408.data.csv
+max: 24.09482139429747
+min: -25.504743350124045
+mean: -0.005890134041673012
+std: 5.4604328121232335
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250409.data.csv
+max: 24.96051286702277
+min: -16.758632484765258
+mean: 0.010386584283762514
+std: 4.639597562849643
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250411.data.csv
+max: 92.25574423233775
+min: -93.13483135732531
+mean: 0.0009458161621489822
+std: 7.5947612167673535
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250415.data.csv
+max: 53.27339201533323
+min: -53.25447503754549
+mean: -0.009416916153779622
+std: 5.380305644045032
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250416.data.csv
+max: 35.56580429356836
+min: -23.140917563345283
+mean: 0.009032682379005022
+std: 5.169744829261937
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250417.data.csv
+max: 17.93785827171814
+min: -19.073119606953696
+mean: 0.005140023645214976
+std: 4.323051840952314
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250421.data.csv
+max: 37.8582147477282
+min: -47.95625598251354
+mean: -0.02489626335072705
+std: 5.808194703860332
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250422.data.csv
+max: 63.44005971887236
+min: -53.68157356904703
+mean: -0.007769458881255637
+std: 6.029380001968534
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250423.data.csv
+max: 82.89397951878345
+min: -67.370681772838
+mean: 0.025885870214435582
+std: 7.097333634744223
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250424.data.csv
+max: 90.29035299443058
+min: -56.83454343541234
+mean: -0.015869597045782436
+std: 8.305484311793993
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250425.data.csv
+max: 70.78253840337857
+min: -64.53782370190311
+mean: 0.015151293079763994
+std: 8.102717839185267
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250428.data.csv
+max: 18.95791001192265
+min: -24.85572292422148
+mean: -0.05329884341469377
+std: 4.909267930553016
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250429.data.csv
+max: 29.29705350141012
+min: -13.786605767541914
+mean: 0.06324436807774854
+std: 5.184402284131184
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250430.data.csv
+max: 18.923589357204037
+min: -24.14432003046386
+mean: -0.0021959643813425694
+std: 4.090019771354222
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250502.data.csv
+max: 16.624832661247638
+min: -22.02225255152007
+mean: -0.0019400451147954842
+std: 4.470135511311775
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250505.data.csv
+max: 12.969844984516385
+min: -14.23822445951373
+mean: 0.016242796824313854
+std: 4.284509184797929
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250506.data.csv
+max: 14.529446642685798
+min: -19.362823575189395
+mean: 0.0038343293187821513
+std: 5.009681911100004
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250507.data.csv
+max: 12.946689289245114
+min: -14.320057870296296
+mean: -0.0015189176665831412
+std: 3.9609506324034554
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250509.data.csv
+max: 21.681529233064794
+min: -14.467637400040985
+mean: 0.017762576353871216
+std: 4.610711660553973
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250512.data.csv
+max: 21.60233766726742
+min: -17.79551141072443
+mean: -0.030708015317089877
+std: 4.3531019774595325
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250513.data.csv
+max: 39.37450077847461
+min: -41.43615103705088
+mean: -0.003837791803813703
+std: 5.253196643940686
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250514.data.csv
+max: 27.98409272925346
+min: -32.0815853705717
+mean: -0.0064470667777563806
+std: 5.133574250135992
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250515.data.csv
+max: 16.744116567431774
+min: -18.396075691474834
+mean: 0.009670367154614452
+std: 4.457734952221826
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250516.data.csv
+max: 22.599755444418406
+min: -16.924230299780902
+mean: -0.004121590884890193
+std: 4.247966362633629
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250519.data.csv
+max: 30.693903774874343
+min: -19.6828593568207
+mean: 0.00501280017702966
+std: 4.747721184274645
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250520.data.csv
+max: 14.713474436073739
+min: -16.978606525277428
+mean: -0.0011768436078010052
+std: 3.805638525402141
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250521.data.csv
+max: 17.40654269361403
+min: -14.536155622859951
+mean: -0.0022963680173287526
+std: 4.41207757520683
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250522.data.csv
+max: 16.987821981412708
+min: -12.830566729637212
+mean: 0.0015462991136991286
+std: 4.427607496493344
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250523.data.csv
+max: 57.05344221764244
+min: -50.04520829952526
+mean: -0.03530024550286242
+std: 5.576232833394626
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250526.data.csv
+max: 28.29149771141965
+min: -25.490834314878157
+mean: 0.0246005829309418
+std: 4.28252256358543
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250527.data.csv
+max: 18.4755194443278
+min: -22.215895556924806
+mean: 0.003916944243041569
+std: 4.499485649008747
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250528.data.csv
+max: 23.955197106515698
+min: -17.02836559748539
+mean: 0.0022288594032711154
+std: 4.231251753535782
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250529.data.csv
+max: 33.543229865448666
+min: -23.800377759966068
+mean: 0.0013704328522045274
+std: 3.7963590925916093
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250530.data.csv
+max: 15.195101592275023
+min: -9.97120957273728
+mean: -0.006434391602039235
+std: 3.577796523701373
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250602.data.csv
+max: 70.01860125852545
+min: -54.219715195155004
+mean: 0.005905482436069275
+std: 6.253866400322863
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250603.data.csv
+max: 20.787648590659956
+min: -22.72184431439382
+mean: -0.0016438373680663992
+std: 4.31807838123361
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250604.data.csv
+max: 30.253637569032435
+min: -22.523901317152195
+mean: 0.006964750127832652
+std: 3.485340385114998
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250605.data.csv
+max: 16.22539086776669
+min: -18.3040615691134
+mean: 0.002613685987659877
+std: 4.108144906597004
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250606.data.csv
+max: 18.768874144850997
+min: -68.26055157329392
+mean: -0.17791435052156962
+std: 5.744753145775948
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250609.data.csv
+max: 49.997253613953944
+min: -53.160632763872854
+mean: 0.002746419233188406
+std: 5.3537366317351776
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250610.data.csv
+max: 11.707283127609116
+min: -8.36939515270933
+mean: -0.00028562177785135376
+std: 2.9383479147997993
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250611.data.csv
+max: 34.290162366574805
+min: -30.677002376236487
+mean: -0.00020638204752801957
+std: 3.6655159377910156
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250612.data.csv
+max: 17.53366197757714
+min: -18.505043787015893
+mean: -0.004263560411693996
+std: 4.596406774340776
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250613.data.csv
+max: 20.152208629675442
+min: -41.29101384705427
+mean: -0.14689060666580886
+std: 4.461677920924996
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250616.data.csv
+max: 15.437263405088743
+min: -12.435816165387223
+mean: -0.003657608396408366
+std: 3.110088282370474
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250617.data.csv
+max: 18.221105451309995
+min: -17.316223692781932
+mean: 0.007897986008774364
+std: 3.7766643398478172
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250618.data.csv
+max: 13.801039489801042
+min: -15.420701213130087
+mean: -0.0033070811904643903
+std: 3.773651691811916
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250619.data.csv
+max: 12.365951474188478
+min: -9.398522522569692
+mean: -0.009467748799308654
+std: 3.4547071801412033
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250620.data.csv
+max: 20.282829624964506
+min: -36.856422139389906
+mean: -0.08687418022559831
+std: 4.008611565000888
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250623.data.csv
+max: 74.20945440518699
+min: -66.78332861515082
+mean: -0.01578394925001432
+std: 6.344587993476213
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>for %f in (*) do python ..\info.py -r %f
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250303.data.csv
+max: 14.364824046155263
+min: -21.82816658043157
+mean: 0.005042501683922811
+std: 5.655881489777919
+abs_mean: 4.404935814459253
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250304.data.csv
+max: 43.35133920494991
+min: -43.99155157284986
+mean: -0.004705362586370958
+std: 4.583775116010242
+abs_mean: 2.7028437658688764
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250305.data.csv
+max: 13.031641688176023
+min: -16.149672585976077
+mean: 0.0028152209102661296
+std: 4.00166744663445
+abs_mean: 3.017087694783437
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250307.data.csv
+max: 14.949514926149277
+min: -18.743207223735226
+mean: 0.0003461634918920104
+std: 3.7546389649341685
+abs_mean: 2.6566991382740794
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250310.data.csv
+max: 24.48187736015825
+min: -28.313414716671105
+mean: 0.003099050148000273
+std: 4.111256692328322
+abs_mean: 2.546899051853019
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250311.data.csv
+max: 42.539077236178855
+min: -46.935219323997444
+mean: -0.005264062324289277
+std: 5.127776762642385
+abs_mean: 3.131846716559131
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250312.data.csv
+max: 14.238075630979438
+min: -10.27424345597683
+mean: -0.0014311206375188046
+std: 3.237572511160144
+abs_mean: 2.428545868033054
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250313.data.csv
+max: 13.021636563884385
+min: -20.04772115295782
+mean: -0.003000625617866543
+std: 3.0693108173998436
+abs_mean: 2.217119250802693
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250317.data.csv
+max: 13.169179879936564
+min: -10.471033413443365
+mean: -0.0032790054579658937
+std: 2.684046319579319
+abs_mean: 1.9081465706512004
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250318.data.csv
+max: 77.65131858356472
+min: -79.49405325236876
+mean: 0.010292061138569168
+std: 6.9447928924339415
+abs_mean: 3.29018021074349
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250319.data.csv
+max: 28.776929461193504
+min: -35.79651647854189
+mean: 0.000775638552094027
+std: 4.231900808791306
+abs_mean: 2.76100232771739
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250320.data.csv
+max: 17.03299283569504
+min: -21.373642254322476
+mean: -0.0025645347045707588
+std: 4.4657717591030135
+abs_mean: 3.179005599721483
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250321.data.csv
+max: 20.466158264840487
+min: -21.636782390225562
+mean: -0.0028730737466251778
+std: 4.845776403685632
+abs_mean: 3.611603248616643
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250324.data.csv
+max: 64.63682965599583
+min: -53.34182299983513
+mean: 0.004075992861157345
+std: 5.924605344363583
+abs_mean: 3.426223704299233
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250325.data.csv
+max: 16.684721529629314
+min: -13.374815652561665
+mean: -0.016013085895173525
+std: 4.286922463079778
+abs_mean: 3.1847841292279324
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250326.data.csv
+max: 18.697329049966356
+min: -18.459170715286746
+mean: 0.017818724284687903
+std: 4.117732189646491
+abs_mean: 2.985507728885421
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250327.data.csv
+max: 50.00012180055637
+min: -46.47320812912221
+mean: -0.0014839923922873493
+std: 6.034607712137635
+abs_mean: 3.635936499817035
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250328.data.csv
+max: 13.47778654845024
+min: -18.587393802248698
+mean: -0.013137411144445187
+std: 4.878508119634497
+abs_mean: 3.8649347263348357
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250401.data.csv
+max: 14.695230577090115
+min: -17.16296839997085
+mean: 0.01261427531226992
+std: 4.114930140484503
+abs_mean: 2.992729884058927
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250402.data.csv
+max: 18.036677198811958
+min: -25.30320739834133
+mean: 0.00045528959609773085
+std: 3.916302736638719
+abs_mean: 2.8289410947070484
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250403.data.csv
+max: 30.602066858962644
+min: -23.689546575908025
+mean: 0.002743053435880667
+std: 4.572610636427996
+abs_mean: 3.1609979058228497
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250404.data.csv
+max: 15.200561143232335
+min: -13.425073661608621
+mean: -0.0027038253303854095
+std: 4.382204687377834
+abs_mean: 3.325943174821716
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250407.data.csv
+max: 45.91060617691983
+min: -44.77155948573636
+mean: 0.0024897613933369048
+std: 7.170991275154576
+abs_mean: 4.796466557687478
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250408.data.csv
+max: 24.09482139429747
+min: -25.504743350124045
+mean: -0.005890134041673012
+std: 5.4604328121232335
+abs_mean: 3.959906747149421
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250409.data.csv
+max: 24.96051286702277
+min: -16.758632484765258
+mean: 0.010386584283762514
+std: 4.639597562849643
+abs_mean: 3.309587670879893
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250411.data.csv
+max: 92.25574423233775
+min: -93.13483135732531
+mean: 0.0009458161621489822
+std: 7.5947612167673535
+abs_mean: 2.8704042852355376
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250415.data.csv
+max: 53.27339201533323
+min: -53.25447503754549
+mean: -0.009416916153779622
+std: 5.380305644045032
+abs_mean: 2.911004077454349
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250416.data.csv
+max: 35.56580429356836
+min: -23.140917563345283
+mean: 0.009032682379005022
+std: 5.169744829261937
+abs_mean: 3.645646004124559
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250417.data.csv
+max: 17.93785827171814
+min: -19.073119606953696
+mean: 0.005140023645214976
+std: 4.323051840952314
+abs_mean: 3.2627013316589504
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250421.data.csv
+max: 37.8582147477282
+min: -47.95625598251354
+mean: -0.02489626335072705
+std: 5.808194703860332
+abs_mean: 3.9146510587889543
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250422.data.csv
+max: 63.44005971887236
+min: -53.68157356904703
+mean: -0.007769458881255637
+std: 6.029380001968534
+abs_mean: 3.4764938788036894
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250423.data.csv
+max: 82.89397951878345
+min: -67.370681772838
+mean: 0.025885870214435582
+std: 7.097333634744223
+abs_mean: 3.736823937158988
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250424.data.csv
+max: 90.29035299443058
+min: -56.83454343541234
+mean: -0.015869597045782436
+std: 8.305484311793993
+abs_mean: 3.8660059759756438
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250425.data.csv
+max: 70.78253840337857
+min: -64.53782370190311
+mean: 0.015151293079763994
+std: 8.102717839185267
+abs_mean: 5.339533640515603
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250428.data.csv
+max: 18.95791001192265
+min: -24.85572292422148
+mean: -0.05329884341469377
+std: 4.909267930553016
+abs_mean: 3.556470514526367
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250429.data.csv
+max: 29.29705350141012
+min: -13.786605767541914
+mean: 0.06324436807774854
+std: 5.184402284131184
+abs_mean: 3.9360046945071288
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250430.data.csv
+max: 18.923589357204037
+min: -24.14432003046386
+mean: -0.0021959643813425694
+std: 4.090019771354222
+abs_mean: 2.9242242666244023
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250502.data.csv
+max: 16.624832661247638
+min: -22.02225255152007
+mean: -0.0019400451147954842
+std: 4.470135511311775
+abs_mean: 3.2188586188122112
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250505.data.csv
+max: 12.969844984516385
+min: -14.23822445951373
+mean: 0.016242796824313854
+std: 4.284509184797929
+abs_mean: 3.2707069697380575
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250506.data.csv
+max: 14.529446642685798
+min: -19.362823575189395
+mean: 0.0038343293187821513
+std: 5.009681911100004
+abs_mean: 3.881028337164141
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250507.data.csv
+max: 12.946689289245114
+min: -14.320057870296296
+mean: -0.0015189176665831412
+std: 3.9609506324034554
+abs_mean: 3.0188992622883077
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250509.data.csv
+max: 21.681529233064794
+min: -14.467637400040985
+mean: 0.017762576353871216
+std: 4.610711660553973
+abs_mean: 3.3669091866804397
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250512.data.csv
+max: 21.60233766726742
+min: -17.79551141072443
+mean: -0.030708015317089877
+std: 4.3531019774595325
+abs_mean: 3.222510597414781
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250513.data.csv
+max: 39.37450077847461
+min: -41.43615103705088
+mean: -0.003837791803813703
+std: 5.253196643940686
+abs_mean: 3.405966816794968
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250514.data.csv
+max: 27.98409272925346
+min: -32.0815853705717
+mean: -0.0064470667777563806
+std: 5.133574250135992
+abs_mean: 3.684285244486865
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250515.data.csv
+max: 16.744116567431774
+min: -18.396075691474834
+mean: 0.009670367154614452
+std: 4.457734952221826
+abs_mean: 3.0650642087154103
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250516.data.csv
+max: 22.599755444418406
+min: -16.924230299780902
+mean: -0.004121590884890193
+std: 4.247966362633629
+abs_mean: 2.9494944988119505
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250519.data.csv
+max: 30.693903774874343
+min: -19.6828593568207
+mean: 0.00501280017702966
+std: 4.747721184274645
+abs_mean: 3.2869738620563904
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250520.data.csv
+max: 14.713474436073739
+min: -16.978606525277428
+mean: -0.0011768436078010052
+std: 3.805638525402141
+abs_mean: 2.5201835866583737
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250521.data.csv
+max: 17.40654269361403
+min: -14.536155622859951
+mean: -0.0022963680173287526
+std: 4.41207757520683
+abs_mean: 3.267061168071397
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250522.data.csv
+max: 16.987821981412708
+min: -12.830566729637212
+mean: 0.0015462991136991286
+std: 4.427607496493344
+abs_mean: 3.348879165118249
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250523.data.csv
+max: 57.05344221764244
+min: -50.04520829952526
+mean: -0.03530024550286242
+std: 5.576232833394626
+abs_mean: 3.3910044818533587
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250526.data.csv
+max: 28.29149771141965
+min: -25.490834314878157
+mean: 0.0246005829309418
+std: 4.28252256358543
+abs_mean: 3.0512710041822038
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250527.data.csv
+max: 18.4755194443278
+min: -22.215895556924806
+mean: 0.003916944243041569
+std: 4.499485649008747
+abs_mean: 3.318657846434109
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250528.data.csv
+max: 23.955197106515698
+min: -17.02836559748539
+mean: 0.0022288594032711154
+std: 4.231251753535782
+abs_mean: 2.942254912292075
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250529.data.csv
+max: 33.543229865448666
+min: -23.800377759966068
+mean: 0.0013704328522045274
+std: 3.7963590925916093
+abs_mean: 2.344060706355718
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250530.data.csv
+max: 15.195101592275023
+min: -9.97120957273728
+mean: -0.006434391602039235
+std: 3.577796523701373
+abs_mean: 2.744418891223738
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250602.data.csv
+max: 70.01860125852545
+min: -54.219715195155004
+mean: 0.005905482436069275
+std: 6.253866400322863
+abs_mean: 3.3861022275600687
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250603.data.csv
+max: 20.787648590659956
+min: -22.72184431439382
+mean: -0.0016438373680663992
+std: 4.31807838123361
+abs_mean: 3.108704212622023
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250604.data.csv
+max: 30.253637569032435
+min: -22.523901317152195
+mean: 0.006964750127832652
+std: 3.485340385114998
+abs_mean: 2.2888469296757203
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250605.data.csv
+max: 16.22539086776669
+min: -18.3040615691134
+mean: 0.002613685987659877
+std: 4.108144906597004
+abs_mean: 2.987239788725674
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250606.data.csv
+max: 18.768874144850997
+min: -68.26055157329392
+mean: -0.17791435052156962
+std: 5.744753145775948
+abs_mean: 3.395726439850826
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250609.data.csv
+max: 49.997253613953944
+min: -53.160632763872854
+mean: 0.002746419233188406
+std: 5.3537366317351776
+abs_mean: 3.005146692663499
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250610.data.csv
+max: 11.707283127609116
+min: -8.36939515270933
+mean: -0.00028562177785135376
+std: 2.9383479147997993
+abs_mean: 2.2668805351091152
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250611.data.csv
+max: 34.290162366574805
+min: -30.677002376236487
+mean: -0.00020638204752801957
+std: 3.6655159377910156
+abs_mean: 2.3133172354760547
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250612.data.csv
+max: 17.53366197757714
+min: -18.505043787015893
+mean: -0.004263560411693996
+std: 4.596406774340776
+abs_mean: 3.368496440822863
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250613.data.csv
+max: 20.152208629675442
+min: -41.29101384705427
+mean: -0.14689060666580886
+std: 4.461677920924996
+abs_mean: 2.842363604668788
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250616.data.csv
+max: 15.437263405088743
+min: -12.435816165387223
+mean: -0.003657608396408366
+std: 3.110088282370474
+abs_mean: 1.7065354964073622
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250617.data.csv
+max: 18.221105451309995
+min: -17.316223692781932
+mean: 0.007897986008774364
+std: 3.7766643398478172
+abs_mean: 2.6131818258205928
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250618.data.csv
+max: 13.801039489801042
+min: -15.420701213130087
+mean: -0.0033070811904643903
+std: 3.773651691811916
+abs_mean: 2.7279156121228376
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250619.data.csv
+max: 12.365951474188478
+min: -9.398522522569692
+mean: -0.009467748799308654
+std: 3.4547071801412033
+abs_mean: 2.6946298110894746
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250620.data.csv
+max: 20.282829624964506
+min: -36.856422139389906
+mean: -0.08687418022559831
+std: 4.008611565000888
+abs_mean: 2.6399992950330264
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>python ..\info.py -r 20250623.data.csv
+max: 74.20945440518699
+min: -66.78332861515082
+mean: -0.01578394925001432
+std: 6.344587993476213
+abs_mean: 3.2078594245920304
+
+(venv) C:\Users\Raj\yms_project\raj\with prev\Solutions>cd..
+
+(venv) C:\Users\Raj\yms_project\raj\with prev>
